@@ -1,26 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lora:wght@400;600&display=swap');
 @import "tailwindcss";
 
+/* ─── Tokens ─────────────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg:        #faf9f5;
+  --bg-card:   #f5f4ed;
+  --bg-subtle: #e8e6dc;
+  --border:    #e8e6dc;
+  --text:      #141413;
+  --text-2:    #5e5d59;
+  --text-3:    #87867f;
+  --accent:    #d97757;
+  --accent-2:  #6a9bcc;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+[data-theme="dark"] {
+  --bg:        #141413;
+  --bg-card:   #1c1b19;
+  --bg-subtle: #232220;
+  --border:    #2a2926;
+  --text:      #faf9f5;
+  --text-2:    #a8a79f;
+  --text-3:    #6b6a63;
+  --accent:    #d97757;
+  --accent-2:  #6a9bcc;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ─── Reset ──────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  line-height: 1.7;
+  transition: background 0.25s, color 0.25s;
 }
+
+h1, h2, h3, h4, h5, nav, label, button, .sans {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ─── Layout ─────────────────────────────────────────────── */
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+section {
+  padding: 96px 0;
+}
+
+/* ─── Typography ─────────────────────────────────────────── */
+h1 { font-size: clamp(36px, 5vw, 48px); font-weight: 600; line-height: 1.15; }
+h2 { font-size: clamp(24px, 3.5vw, 32px); font-weight: 600; line-height: 1.25; }
+h3 { font-size: clamp(18px, 2.5vw, 22px); font-weight: 600; line-height: 1.35; }
+
+p { color: var(--text-2); line-height: 1.75; }
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+a:hover { color: var(--accent); }
+
+/* ─── Components ─────────────────────────────────────────── */
+.label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: var(--bg-subtle);
+  border-color: var(--text-3);
+  color: var(--text);
+}
+
+.btn-accent {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn-accent:hover {
+  background: #c66544;
+  border-color: #c66544;
+  color: #fff;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+::selection { background: rgba(217, 119, 87, 0.2); }
