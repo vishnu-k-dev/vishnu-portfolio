@@ -32,7 +32,7 @@ export default function Navbar() {
         </a>
 
         {/* Links */}
-        <div style={{ display: "flex", alignItems: "center", gap: 32 }}>
+        <div className="nav-links" style={{ display: "flex", alignItems: "center", gap: 32 }}>
           {[
             { label: "About", href: "#about" },
             { label: "Projects", href: "#projects" },

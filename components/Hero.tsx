@@ -24,7 +24,7 @@ export default function Hero() {
     <section id="top" style={{ padding: "80px 0 64px" }}>
       <div className="container">
         {/* Two-column layout: text left, photo right */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: 48, alignItems: "center" }}>
+        <div className="hero-grid">
 
           {/* Left — text content */}
           <div>
@@ -69,15 +69,8 @@ export default function Hero() {
           </div>
 
           {/* Right — profile picture */}
-          <div style={{ flexShrink: 0 }}>
-            <div style={{
-              width: 280,
-              height: 320,
-              borderRadius: 16,
-              overflow: "hidden",
-              border: "1px solid var(--border)",
-              position: "relative",
-            }}>
+          <div>
+            <div className="hero-photo-wrap">
               <Image
                 src="/profile_pic_updated.jpeg"
                 alt="Vishnu K"

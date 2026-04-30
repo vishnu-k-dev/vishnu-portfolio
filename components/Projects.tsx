@@ -70,7 +70,7 @@ export default function Projects() {
           Recent Projects <span style={{ color: "var(--accent)" }}>&amp; Achievements</span>
         </h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))", gap: 16 }}>
+        <div className="projects-grid">
           {projects.map((p) => (
             <div key={p.title} className="card" style={{ padding: 0, overflow: "hidden" }}>
               <div style={{ height: 200, overflow: "hidden", borderBottom: "1px solid var(--border)", position: "relative", background: "var(--bg-subtle)" }}>

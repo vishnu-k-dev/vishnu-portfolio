@@ -7,7 +7,7 @@ export default function About() {
         <p className="label" style={{ marginBottom: 16 }}>About</p>
         <h2 style={{ marginBottom: 40, color: "var(--text)" }}>The engineer behind the work</h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 56, alignItems: "start" }}>
+        <div className="about-grid">
           {/* Left — bio */}
           <div>
             <p style={{ marginBottom: 16 }}>

@@ -84,7 +84,7 @@ export default function Experience() {
 
           <div style={{ display: "flex", flexDirection: "column" }}>
             {experience.map((item, i) => (
-              <div key={i} style={{ display: "grid", gridTemplateColumns: "140px 1fr", gap: 32, padding: "28px 0", borderBottom: "1px solid var(--border)" }}>
+              <div key={i} className="exp-row">
                 <div>
                   <p style={{ fontSize: 13, fontFamily: "'Poppins', sans-serif", color: "var(--text-3)", marginBottom: 8 }}>{item.period}</p>
                   <span style={{

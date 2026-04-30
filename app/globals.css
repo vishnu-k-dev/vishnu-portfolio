@@ -131,3 +131,79 @@ a:hover { color: var(--accent); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
 ::selection { background: rgba(217, 119, 87, 0.2); }
+
+/* ─── Layout classes (desktop) ───────────────────────────── */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero-photo-wrap {
+  width: 280px;
+  height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.exp-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 16px;
+}
+
+/* ─── Responsive ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .container { padding: 0 20px; }
+
+  section { padding: 60px 0; }
+
+  /* Navbar — hide links, keep logo + toggle */
+  .nav-links { display: none; }
+
+  /* Hero — stack vertically, photo below text */
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .hero-photo-wrap {
+    width: 100%;
+    height: 220px;
+  }
+
+  /* About — single column */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  /* Experience rows — stack period + role */
+  .exp-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  /* Projects — single column on mobile */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
