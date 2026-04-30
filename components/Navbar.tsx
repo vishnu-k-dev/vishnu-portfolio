@@ -25,14 +25,14 @@ export default function Navbar() {
       background: "var(--bg)",
       borderBottom: "1px solid var(--border)",
     }}>
-      <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 24px" }}>
+      <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "14px 20px" }}>
         {/* Logo */}
         <a href="#top" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 600, fontSize: 16, color: "var(--text)", letterSpacing: "-0.01em" }}>
           Vishnu K
         </a>
 
         {/* Links */}
-        <div className="nav-links" style={{ display: "flex", alignItems: "center", gap: 32 }}>
+        <div className="nav-links">
           {[
             { label: "About", href: "#about" },
             { label: "Projects", href: "#projects" },

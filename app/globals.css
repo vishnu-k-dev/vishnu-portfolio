@@ -157,6 +157,12 @@ a:hover { color: var(--accent); }
   align-items: start;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
 .exp-row {
   display: grid;
   grid-template-columns: 140px 1fr;
@@ -178,7 +184,7 @@ a:hover { color: var(--accent); }
   section { padding: 60px 0; }
 
   /* Navbar — hide links, keep logo + toggle */
-  .nav-links { display: none; }
+  .nav-links { display: none !important; }
 
   /* Hero — stack vertically, photo below text */
   .hero-grid {
