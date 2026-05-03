@@ -92,7 +92,7 @@ export default function Hero() {
           {[
             { value: "8.24", label: "GPA" },
             { value: "10+", label: "Projects" },
-            { value: "200+", label: "Chrome installs" },
+            { value: "221", label: "Chrome installs" },
             { value: "4", label: "Hackathons" },
           ].map(s => (
             <div key={s.label}>

@@ -16,6 +16,7 @@ AVAILABILITY
 PROJECTS
 1. CREDA (co-founder, startup, live at trycreda.app)
    - AI hiring platform that analyses resumes + GitHub repos to separate real builders from resume padding
+   - 100 active users, 86 interviews conducted to date
    - Architecture: multi-model pipeline (GPT-4o + Gemini + Claude 3.5), anti-cheat detection, Skill Passports
    - Backend: Node.js, Redis/BullMQ for async job queues, Supabase with row-level security (RLS)
    - Dashboards for both recruiters and students; live in production
@@ -25,7 +26,7 @@ PROJECTS
    - 98% accuracy, 0.99 ROC-AUC; Grad-CAM for explainability; radiomics feature extraction
    - Stack: PyTorch, ViT, OpenCV, Scikit-learn
 
-3. Trust Layer (Chrome extension, 200+ organic installs, 5.0★ on Chrome Web Store)
+3. Trust Layer (Chrome extension, 221 organic installs, 5.0★ on Chrome Web Store, users across US, India, Germany)
    - Real-time NLP privacy policy scorer (1–10 score) with FastAPI backend
    - Production caching, rate limiting; Chrome MV3 architecture
 
