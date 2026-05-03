@@ -6,7 +6,7 @@ const projects = [
     title: "CREDA",
     type: "LLM Pipeline · Startup",
     description: "Co-founded. AI hiring platform separating real builders from resume padding — analyzes resumes and GitHub repos using GPT-4o, Gemini, and Claude. Anti-cheat detection, Skill Passports, Redis job queues.",
-    metric: "Co-founder · 3-model AI pipeline",
+    metric: "Co-founder · 3-model pipeline · Live at trycreda.app",
     stack: "GPT-4o · Gemini · Claude · Supabase · BullMQ · Redis",
     github: "https://github.com/vishnu-k-dev/CREDA",
     live: "https://www.trycreda.app",
@@ -49,6 +49,18 @@ const projects = [
     eager: false,
   },
   {
+    title: "Thermal Anomaly Detection — IEEE Paper",
+    type: "Research · Under Review",
+    description: "Peer-reviewed study on CNN-LSTM hybrid architecture for detecting heat anomalies in power transformer IR images. Introduces self-attention pooling over temporal Bi-LSTM states and Grad-CAM explainability on 895 real SciDB infrared images. Submitted to IEEE.",
+    metric: "Under Review · IEEE",
+    stack: "PyTorch · ResNet-18 · Bi-LSTM · Self-Attention · Grad-CAM",
+    github: null,
+    live: null,
+    preview: null,
+    isResearch: true,
+    eager: false,
+  },
+  {
     title: "Project Aarna",
     type: "Blockchain · Climate Tech",
     description: "India's first decentralized MRV platform for blue carbon credits on Algorand. Communities submit coastal restoration evidence on IPFS, validators approve on-chain, and AARNA tokens are minted as carbon credits — fully auditable, no middlemen.",
@@ -73,16 +85,25 @@ export default function Projects() {
         <div className="projects-grid">
           {projects.map((p) => (
             <div key={p.title} className="card" style={{ padding: 0, overflow: "hidden" }}>
-              <div style={{ height: 200, overflow: "hidden", borderBottom: "1px solid var(--border)", position: "relative", background: "var(--bg-subtle)" }}>
-                <Image
-                  src={p.preview}
-                  alt={`${p.title} preview`}
-                  fill
-                  loading={p.eager ? "eager" : "lazy"}
-                  style={{ objectFit: "cover", objectPosition: "top" }}
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
+              {"isResearch" in p && p.isResearch ? (
+                <div style={{ height: 200, borderBottom: "1px solid var(--border)", background: "var(--bg-subtle)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 12 }}>
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--text-3)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                  </svg>
+                  <span style={{ fontSize: 11, fontFamily: "'Poppins', sans-serif", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--accent)", background: "rgba(217,119,87,0.1)", padding: "4px 10px", borderRadius: 4 }}>IEEE · Under Review</span>
+                </div>
+              ) : (
+                <div style={{ height: 200, overflow: "hidden", borderBottom: "1px solid var(--border)", position: "relative", background: "var(--bg-subtle)" }}>
+                  <Image
+                    src={p.preview!}
+                    alt={`${p.title} preview`}
+                    fill
+                    loading={p.eager ? "eager" : "lazy"}
+                    style={{ objectFit: "cover", objectPosition: "top" }}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
+              )}
 
               <div style={{ padding: "18px 20px 20px" }}>
                 <p className="label" style={{ marginBottom: 8 }}>{p.type}</p>
@@ -120,13 +141,15 @@ export default function Projects() {
 
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid var(--border)", paddingTop: 14 }}>
                   <p style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "'Poppins', sans-serif", margin: 0 }}>{p.stack}</p>
-                  <a href={p.github} target="_blank" rel="noreferrer"
-                    style={{ fontSize: 12, fontFamily: "'Poppins', sans-serif", color: "var(--text-3)", flexShrink: 0, marginLeft: 12 }}
-                    onMouseEnter={e => (e.currentTarget.style.color = "var(--accent)")}
-                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-3)")}
-                  >
-                    {"githubLabel" in p ? p.githubLabel : "GitHub ↗"}
-                  </a>
+                  {p.github && (
+                    <a href={p.github} target="_blank" rel="noreferrer"
+                      style={{ fontSize: 12, fontFamily: "'Poppins', sans-serif", color: "var(--text-3)", flexShrink: 0, marginLeft: 12 }}
+                      onMouseEnter={e => (e.currentTarget.style.color = "var(--accent)")}
+                      onMouseLeave={e => (e.currentTarget.style.color = "var(--text-3)")}
+                    >
+                      {"githubLabel" in p ? p.githubLabel : "GitHub ↗"}
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

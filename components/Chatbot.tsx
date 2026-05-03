@@ -33,6 +33,21 @@ export default function Chatbot() {
 
   return (
     <>
+      {/* CTA label above button */}
+      {!open && (
+        <div style={{
+          position: "fixed", bottom: 72, right: 24, zIndex: 100,
+          background: "var(--bg)", border: "1px solid var(--border)",
+          borderRadius: 8, padding: "8px 12px",
+          boxShadow: "0 4px 16px rgba(0,0,0,0.08)",
+          pointerEvents: "none",
+        }}>
+          <p style={{ fontSize: 12, fontFamily: "'Poppins', sans-serif", color: "var(--text-2)", margin: 0, whiteSpace: "nowrap" }}>
+            Ask me anything about my work ↓
+          </p>
+        </div>
+      )}
+
       {/* Trigger */}
       <button onClick={() => setOpen(o => !o)} style={{
         position: "fixed", bottom: 24, right: 24, zIndex: 100,

@@ -23,9 +23,10 @@ const experience = [
     typeColor: "var(--accent-2)",
     typeBg: "rgba(106,155,204,0.12)",
     points: [
-      "Researched deep learning approaches for a video generation pipeline",
-      "Integrated third-party video generation APIs in a production environment",
-      "Applied MLOps practices alongside the core engineering team",
+      "Integrated Gemini API into a video generation pipeline, handling prompt design and response parsing",
+      "Optimised prompt structures to improve output consistency and reduce token overhead",
+      "Built reproducible ML experiment notebooks with structured evaluation metrics and result logging",
+      "Collaborated with the core engineering team on production deployment and API integration",
     ],
   },
   {

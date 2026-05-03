@@ -30,7 +30,11 @@ export default function Hero() {
           <div>
             <p className="label" style={{ marginBottom: 20 }}>AI / ML Engineer</p>
 
-            <h1 style={{ marginBottom: 24, color: "var(--text)" }}>Vishnu K</h1>
+            <h1 style={{ marginBottom: 16, color: "var(--text)" }}>Vishnu K</h1>
+
+            <p style={{ fontSize: 13, fontFamily: "'Poppins', sans-serif", color: "var(--accent)", marginBottom: 24, fontWeight: 500 }}>
+              Currently: CREDA &nbsp;·&nbsp; Open to AI/ML internships from June 2026
+            </p>
 
             <p style={{ fontSize: 18, maxWidth: 520, marginBottom: 36, color: "var(--text-2)", lineHeight: 1.75 }}>
               3rd-year AI & ML student at BNMIT, Bengaluru. I build production-grade systems —
@@ -88,7 +92,7 @@ export default function Hero() {
           {[
             { value: "8.24", label: "GPA" },
             { value: "10+", label: "Projects" },
-            { value: "200+", label: "Live users" },
+            { value: "200+", label: "Chrome installs" },
             { value: "4", label: "Hackathons" },
           ].map(s => (
             <div key={s.label}>
