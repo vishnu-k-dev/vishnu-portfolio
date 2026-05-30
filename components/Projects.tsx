@@ -5,7 +5,7 @@ const projects = [
   {
     title: "CREDA",
     type: "LLM Pipeline · Startup",
-    description: "Co-founded. AI hiring platform separating real builders from resume padding — analyzes resumes and GitHub repos using GPT-4o, Gemini, and Claude. Anti-cheat detection, Skill Passports, Redis job queues.",
+    description: "Co-founded. Built an async multi-model evaluation pipeline (GPT-4o + Gemini + Claude) using BullMQ queues and Redis workers to process candidate interviews at scale. Anti-cheat detection, Skill Passports, and Supabase RLS — 100 users, 86 AI interviews conducted.",
     metric: "100 users · 86 interviews conducted · Live at trycreda.app",
     stack: "GPT-4o · Gemini · Claude · Supabase · BullMQ · Redis",
     github: "https://github.com/vishnu-k-dev/CREDA",

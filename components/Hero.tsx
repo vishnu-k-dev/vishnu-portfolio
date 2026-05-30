@@ -28,7 +28,7 @@ export default function Hero() {
 
           {/* Left — text content */}
           <div>
-            <p className="label" style={{ marginBottom: 20 }}>AI / ML Engineer</p>
+            <p className="label" style={{ marginBottom: 20 }}>Applied AI Engineer · LLM Systems &amp; Computer Vision</p>
 
             <h1 style={{ marginBottom: 16, color: "var(--text)" }}>Vishnu K</h1>
 
@@ -99,6 +99,23 @@ export default function Hero() {
               <div style={{ fontSize: 22, fontWeight: 600, fontFamily: "'Poppins', sans-serif", color: "var(--text)" }}>{s.value}</div>
               <div className="label" style={{ marginTop: 2 }}>{s.label}</div>
             </div>
+          ))}
+        </div>
+
+        {/* Achievement highlights strip */}
+        <div style={{ marginTop: 24, display: "flex", flexWrap: "wrap", gap: "6px 0", alignItems: "center" }}>
+          {[
+            "AI/ML Intern @ FotoBubbles",
+            "Co-founder @ CREDA · 86 interviews",
+            "221 Chrome installs · 3 countries",
+            "98% tumor detection accuracy",
+            "75% GraphRAG token reduction",
+            "IEEE paper under review",
+          ].map((item, i) => (
+            <span key={i} style={{ display: "flex", alignItems: "center" }}>
+              {i > 0 && <span style={{ margin: "0 10px", color: "var(--border)", fontSize: 14 }}>·</span>}
+              <span style={{ fontSize: 12, fontFamily: "'Poppins', sans-serif", color: "var(--text-3)" }}>{item}</span>
+            </span>
           ))}
         </div>
       </div>
