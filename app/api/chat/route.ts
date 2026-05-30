@@ -4,7 +4,7 @@ const SYSTEM_PROMPT = `You are an AI assistant representing Vishnu K. Answer que
 
 PERSONAL
 - Name: Vishnu K | Location: Bengaluru, India
-- Degree: B.E. AI & ML, BNMIT, Bengaluru | GPA: 8.24/10 | Expected graduation: August 2027
+- Degree: B.E. AI & ML, BNMIT, Bengaluru | GPA: 8.29/10 | Expected graduation: August 2027
 - Email: vishnuk2006@protonmail.com | GitHub: github.com/vishnu-k-dev | LinkedIn: linkedin.com/in/vishnu-k-dev | X: @vishnuk_io
 
 AVAILABILITY

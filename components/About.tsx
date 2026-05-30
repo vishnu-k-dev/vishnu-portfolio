@@ -11,7 +11,7 @@ export default function About() {
           {/* Left — bio */}
           <div>
             <p style={{ marginBottom: 16 }}>
-              I&apos;m a 3rd-year B.E. AI & ML student at BNMIT, Bengaluru (GPA 8.24). I build things end-to-end — not just notebooks, but systems that run in production with real users and measurable outcomes.
+              I&apos;m a 3rd-year B.E. AI & ML student at BNMIT, Bengaluru (GPA 8.29). I build things end-to-end — not just notebooks, but systems that run in production with real users and measurable outcomes.
             </p>
             <p style={{ marginBottom: 16 }}>
               My work spans computer vision (CNNs, ViT, Grad-CAM), LLM engineering (multi-model pipelines, RAG, GraphRAG), and backend systems (FastAPI, Redis, Supabase). I care about deployment, reliability, and results.
@@ -25,7 +25,7 @@ export default function About() {
           <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
             {[
               { label: "Degree", value: "B.E. AI & ML · BNMIT" },
-              { label: "GPA", value: "8.24 / 10" },
+              { label: "GPA", value: "8.29 / 10" },
               { label: "Location", value: "Bengaluru, India" },
               { label: "Internship", value: "AI/ML Intern · Equinoxis" },
               { label: "Email", value: "vishnuk2006@protonmail.com", link: "mailto:vishnuk2006@protonmail.com" },

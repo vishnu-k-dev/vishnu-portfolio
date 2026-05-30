@@ -37,8 +37,8 @@ export default function Hero() {
             </p>
 
             <p style={{ fontSize: 18, maxWidth: 520, marginBottom: 36, color: "var(--text-2)", lineHeight: 1.75 }}>
-              3rd-year AI & ML student at BNMIT, Bengaluru. I build production-grade systems —
-              from CNN/ViT models on medical datasets to multi-agent LLM pipelines with 200+ live users.
+              3rd-year AI & ML student at BNMIT. I build production AI systems end-to-end —
+              LLM-powered SaaS, computer vision, and full-stack AI products with real users and measurable outcomes.
             </p>
 
             {/* CTA buttons */}
@@ -90,7 +90,7 @@ export default function Hero() {
         {/* Stats — full width below */}
         <div style={{ marginTop: 56, paddingTop: 40, borderTop: "1px solid var(--border)", display: "flex", gap: 48, flexWrap: "wrap" }}>
           {[
-            { value: "8.24", label: "GPA" },
+            { value: "8.29", label: "GPA" },
             { value: "10+", label: "Projects" },
             { value: "221", label: "Chrome installs" },
             { value: "4", label: "Hackathons" },
