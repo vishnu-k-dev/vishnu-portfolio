@@ -33,7 +33,7 @@ export default function Hero() {
             <h1 style={{ marginBottom: 16, color: "var(--text)" }}>Vishnu K</h1>
 
             <p style={{ fontSize: 13, fontFamily: "'Poppins', sans-serif", color: "var(--accent)", marginBottom: 24, fontWeight: 500 }}>
-              Currently: CREDA &nbsp;·&nbsp; Open to AI/ML internships from June 2026
+              Currently: AI/ML Intern @ FotoBubbles &nbsp;·&nbsp; Co-founder @ CREDA
             </p>
 
             <p style={{ fontSize: 18, maxWidth: 520, marginBottom: 36, color: "var(--text-2)", lineHeight: 1.75 }}>

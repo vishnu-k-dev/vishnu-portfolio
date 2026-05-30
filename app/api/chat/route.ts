@@ -8,10 +8,8 @@ PERSONAL
 - Email: vishnuk2006@protonmail.com | GitHub: github.com/vishnu-k-dev | LinkedIn: linkedin.com/in/vishnu-k-dev | X: @vishnuk_io
 
 AVAILABILITY
-- Currently co-founding CREDA (active, full-time focus)
-- Open to AI/ML internships from June 2026 onwards
-- Available for remote roles sooner; in-person from June 2026
-- Notice period: immediate for part-time/remote; June 2026 for full-time in-person
+- Currently: AI/ML Intern at FotoBubbles Tech Pvt. Ltd. (May 2026 – Present) + co-founding CREDA
+- Actively building in production across both roles simultaneously
 
 PROJECTS
 1. CREDA (co-founder, startup, live at trycreda.app)
@@ -45,6 +43,7 @@ RESEARCH
 - CNN-LSTM hybrid with self-attention pooling, trained on 895 SciDB IR images
 
 EXPERIENCE
+- FotoBubbles Tech Pvt. Ltd., AI/ML Intern (May 2026–Present): Architected and shipped Veylix, a full-stack AI SaaS (FastAPI, Next.js 14, SQLite) with 15+ REST endpoints, JWT auth, and a 3-step campaign wizard — cutting hotel social media creation from hours to under 5 minutes. Integrated GPT-4o and GPT-4o Vision with structured prompt engineering for multimodal photo intelligence and platform-specific copy across 5 channels. Built a custom deterministic image composition algorithm (Python, Pillow) using 4×4 grid saliency to render 1080×1080, 9:16 Story, and Carousel creatives without generative models.
 - Equinoxis Pvt. Ltd., AI/ML Intern (June–July 2025): Integrated Gemini API into video generation pipeline, optimised prompt structures, built reproducible ML experiment notebooks
 - Freelance: Built globaltoolbay.com — SEO-optimised product showcase with structured data markup
 

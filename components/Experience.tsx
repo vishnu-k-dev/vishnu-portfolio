@@ -2,6 +2,20 @@
 
 const experience = [
   {
+    period: "May 2026 – Present",
+    role: "AI/ML Intern",
+    org: "FotoBubbles Tech Pvt. Ltd.",
+    type: "Internship",
+    typeColor: "var(--accent-2)",
+    typeBg: "rgba(106,155,204,0.12)",
+    points: [
+      "Architected and shipped Veylix, a production-ready full-stack AI SaaS (FastAPI, Next.js 14, SQLite) with 15+ REST endpoints, JWT auth, and a 3-step campaign wizard — cutting hotel social media creation from hours to under 5 minutes",
+      "Integrated GPT-4o and GPT-4o Vision with structured prompt engineering and JSON schema validation to automate multimodal photo intelligence: quality scoring, emotional tone, best-use classification, and platform-specific copy for 5 channels",
+      "Designed a custom deterministic image composition algorithm (Python, Pillow) using a 4×4 grid saliency system — computing edge density, local contrast, hero zone protection, and placement interference — to render 1080×1080, 9:16 Story, and Carousel creatives without generative models",
+      "Owned end-to-end product development independently: system architecture, API design, LLM pipeline, frontend UI, and creative rendering — iterating on product feedback across the full SDLC",
+    ],
+  },
+  {
     period: "2025 – Present",
     role: "Co-Founder",
     org: "CREDA · AI Hiring Platform",
