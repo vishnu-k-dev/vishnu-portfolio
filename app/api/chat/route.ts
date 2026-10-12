@@ -24,7 +24,7 @@ PROJECTS
    - 98% accuracy, 0.99 ROC-AUC; Grad-CAM for explainability; radiomics feature extraction
    - Stack: PyTorch, ViT, OpenCV, Scikit-learn
 
-3. Trust Layer (Chrome extension, 221 organic installs, 5.0★ on Chrome Web Store, users across US, India, Germany)
+3. Trust Layer (Chrome extension, 480 organic installs, 5.0★ on Chrome Web Store, users across US, India, Germany)
    - Real-time NLP privacy policy scorer (1–10 score) with FastAPI backend
    - Production caching, rate limiting; Chrome MV3 architecture
 
@@ -43,9 +43,8 @@ RESEARCH
 - CNN-LSTM hybrid with self-attention pooling, trained on 895 SciDB IR images
 
 EXPERIENCE
-- FotoBubbles Tech Pvt. Ltd., AI/ML Intern (May 2026–Present): Architected and shipped Veylix, a full-stack AI SaaS (FastAPI, Next.js 14, SQLite) with 15+ REST endpoints, JWT auth, and a 3-step campaign wizard — cutting hotel social media creation from hours to under 5 minutes. Integrated GPT-4o and GPT-4o Vision with structured prompt engineering for multimodal photo intelligence and platform-specific copy across 5 channels. Built a custom deterministic image composition algorithm (Python, Pillow) using 4×4 grid saliency to render 1080×1080, 9:16 Story, and Carousel creatives without generative models.
+- FotoBubbles Tech Pvt. Ltd., AI/ML Intern (May 2026–Present): Built and shipped Veylix, a multi-tenant AI SaaS (Next.js 15, TypeScript, Prisma, PostgreSQL, Python/FastAPI) on my own from architecture to UI — cutting hotel social media creation from hours to under 5 minutes. Integrated GPT-4o and GPT-4o Vision with structured prompt engineering for multimodal photo intelligence and platform-specific copy across 5 channels. Built a custom deterministic image composition algorithm (Python, Pillow) using 4×4 grid saliency to render 1080×1080, 9:16 Story, and Carousel creatives without generative models.
 - Equinoxis Pvt. Ltd., AI/ML Intern (June–July 2025): Integrated Gemini API into video generation pipeline, optimised prompt structures, built reproducible ML experiment notebooks
-- Freelance: Built globaltoolbay.com — SEO-optimised product showcase with structured data markup
 
 HACKATHONS
 - Visa 24hr Hackathon at IIT Madras — Top 50 nationally (2025)

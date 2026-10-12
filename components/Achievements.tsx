@@ -9,7 +9,7 @@ export default function Achievements() {
       detail: "4-hop TigerGraph knowledge traversal cut LLM context from 2,500 → 600 tokens while preserving retrieval quality",
     },
     {
-      title: "221 organic Chrome installs · 5.0 ★",
+      title: "480 organic Chrome installs · 5.0 ★",
       detail: "Trust Layer deployed across US, India, and Germany with production caching, rate limiting, and FastAPI backend",
     },
     {
@@ -22,7 +22,7 @@ export default function Achievements() {
     },
     {
       title: "Full-stack AI SaaS shipped solo (Veylix)",
-      detail: "FastAPI + Next.js 14 + GPT-4o Vision — 15+ REST endpoints, JWT auth, 3-step campaign wizard, hotel social media creation from hours to under 5 minutes",
+      detail: "Next.js 15 + TypeScript + Prisma + PostgreSQL + FastAPI + GPT-4o Vision — multi-tenant, hotel social media campaign creation from hours to under 5 minutes",
     },
   ];
 

@@ -104,7 +104,7 @@ export function TrustLayerPreview() {
       {[68,80,92,104].map(y=><rect key={y} x="20" y={y} width="170" height="6" rx="3" fill="#f1f5f9" />)}
       <text x="20" y="130" fontSize="8" fill="#94a3b8" fontFamily="sans-serif">Privacy Policy</text>
       {[136,147,158].map(y=><rect key={y} x="20" y={y} width="170" height="5" rx="2" fill="#f1f5f9" />)}
-      <text x="20" y="180" fontSize="7" fill="#4f8ef7" fontFamily="sans-serif">200+ users · Chrome Web Store</text>
+      <text x="20" y="180" fontSize="7" fill="#4f8ef7" fontFamily="sans-serif">480 installs · Chrome Web Store</text>
     </svg>
   );
 }

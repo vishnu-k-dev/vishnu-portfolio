@@ -27,7 +27,7 @@ export default function About() {
               { label: "Degree", value: "B.E. AI & ML · BNMIT" },
               { label: "GPA", value: "8.29 / 10" },
               { label: "Location", value: "Bengaluru, India" },
-              { label: "Internship", value: "AI/ML Intern · Equinoxis" },
+              { label: "Internship", value: "AI/ML Intern · FotoBubbles" },
               { label: "Email", value: "vishnuk2006@protonmail.com", link: "mailto:vishnuk2006@protonmail.com" },
               { label: "GitHub", value: "vishnu-k-dev", link: "https://github.com/vishnu-k-dev/" },
               { label: "LinkedIn", value: "vishnu-k-dev", link: "https://www.linkedin.com/in/vishnu-k-dev/" },

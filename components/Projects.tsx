@@ -29,7 +29,7 @@ const projects = [
     title: "Trust Layer",
     type: "NLP · Browser Extension",
     description: "Chrome extension + FastAPI backend that scores website privacy policies 1–10 in real time using NLP. 5.0 ★ on Chrome Web Store. Built production caching and rate limiting.",
-    metric: "221 installs · 5.0 ★ · US · India · Germany",
+    metric: "480 installs · 5.0 ★ · US · India · Germany",
     stack: "FastAPI · OpenAI · BeautifulSoup · Chrome MV3",
     github: "https://github.com/vishnu-k-dev/trust-layer-backend",
     live: "https://chromewebstore.google.com/detail/trust-layer/pdaeghgikdefhjmpfnknponehopmeenc",

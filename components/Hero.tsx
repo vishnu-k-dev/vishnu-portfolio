@@ -92,7 +92,7 @@ export default function Hero() {
           {[
             { value: "8.29", label: "GPA" },
             { value: "10+", label: "Projects" },
-            { value: "221", label: "Chrome installs" },
+            { value: "480", label: "Chrome installs" },
             { value: "4", label: "Hackathons" },
           ].map(s => (
             <div key={s.label}>
@@ -107,7 +107,7 @@ export default function Hero() {
           {[
             "AI/ML Intern @ FotoBubbles",
             "Co-founder @ CREDA · 86 interviews",
-            "221 Chrome installs · 3 countries",
+            "480 Chrome installs · 3 countries",
             "98% tumor detection accuracy",
             "75% GraphRAG token reduction",
             "IEEE paper under review",
