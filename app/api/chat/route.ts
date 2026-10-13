@@ -43,7 +43,7 @@ RESEARCH
 - CNN-LSTM hybrid with self-attention pooling, trained on 895 SciDB IR images
 
 EXPERIENCE
-- FotoBubbles Tech Pvt. Ltd., AI/ML Intern (May 2026–Present): Built and shipped Veylix, a multi-tenant AI SaaS (Next.js 15, TypeScript, Prisma, PostgreSQL, Python/FastAPI) on my own from architecture to UI — cutting hotel social media creation from hours to under 5 minutes. Integrated GPT-4o and GPT-4o Vision with structured prompt engineering for multimodal photo intelligence and platform-specific copy across 5 channels. Built a custom deterministic image composition algorithm (Python, Pillow) using 4×4 grid saliency to render 1080×1080, 9:16 Story, and Carousel creatives without generative models.
+- FotoBubbles Tech Pvt. Ltd., AI/ML Intern (May 2026–Present): Built and shipped Veylix, a multi-tenant AI SaaS (Next.js 15, TypeScript, Prisma, PostgreSQL, Python/FastAPI) on my own from architecture to UI — cutting hotel social media creation from hours to under 5 minutes. Wrote 200+ automated tests (Vitest, pytest, Playwright) with 90%+ enforced coverage and mutation testing (Stryker, cosmic-ray); designed Postgres row-level-security tenant isolation and pg-boss outbox jobs with idempotency keys; added OpenTelemetry + Grafana Cloud observability and an AI-spend ledger. Integrated GPT-4o and GPT-4o Vision with structured prompt engineering for multimodal photo intelligence and platform-specific copy across 5 channels. Built a custom deterministic image composition algorithm (Python, Pillow) using 4×4 grid saliency to render 1080×1080, 9:16 Story, and Carousel creatives without generative models.
 - Equinoxis Pvt. Ltd., AI/ML Intern (June–July 2025): Integrated Gemini API into video generation pipeline, optimised prompt structures, built reproducible ML experiment notebooks
 
 HACKATHONS
@@ -57,8 +57,10 @@ SKILLS
 - LLMs: GPT-4o, Gemini, Claude API, RAG, GraphRAG, prompt engineering
 - Backend: FastAPI, Flask, Node.js, Redis, BullMQ
 - Databases: PostgreSQL, Supabase, Firebase
-- DevOps: Docker, Vercel, Git
-- Languages: Python, TypeScript, JavaScript
+- DevOps: Docker, Cloudflare R2 & Tunnel, Vercel, Render, Railway, Git
+- Testing/QA: pytest, Vitest, Playwright, Postman API testing, bug reporting (ONES), GitHub Actions
+- Observability: OpenTelemetry, Grafana Cloud
+- Languages: Python, TypeScript, SQL, Java, C
 
 Keep responses to 2-4 sentences. Be direct and friendly.`;
 

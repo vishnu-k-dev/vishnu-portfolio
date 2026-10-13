@@ -12,7 +12,10 @@ const experience = [
       "Built Veylix, a production-ready multi-tenant AI SaaS for hotel marketing (Next.js 15, TypeScript, Prisma, PostgreSQL, Python/FastAPI), on my own from architecture to UI — cutting hotel social media campaign creation from hours to under 5 minutes",
       "Integrated GPT-4o and GPT-4o Vision with structured prompt engineering and JSON schema validation to automate multimodal photo intelligence: quality scoring, emotional tone, best-use classification, and platform-specific copy for 5 channels",
       "Designed a custom deterministic image composition algorithm (Python, Pillow) using a 4×4 grid saliency system — computing edge density, local contrast, hero zone protection, and placement interference — to render 1080×1080, 9:16 Story, and Carousel creatives without generative models",
-      "Owned end-to-end product development independently: system architecture, API design, LLM pipeline, frontend UI, and creative rendering — iterating on product feedback across the full SDLC",
+      "Wrote 200+ automated tests (Vitest, pytest, Playwright E2E) with a 90%+ enforced coverage threshold, pre-commit/pre-push hooks and GitHub Actions; used mutation testing (Stryker, cosmic-ray) and confirm each regression test fails without its fix",
+      "Tested the develop build end to end on a real property (22 areas, 57 photos) and filed root-caused bugs in ONES with repro steps, severity and file/line; fixed bugs from testing and code review in PRs, each with tests",
+      "Designed multi-tenant data isolation with Postgres row-level security and separate DB roles for app, auth and platform; built pg-boss outbox background jobs with idempotency keys so no job runs twice",
+      "Added OpenTelemetry traces, metrics and trace-correlated logs exported to Grafana Cloud with alerting and an AI-spend dashboard; an AI-spend ledger caps LLM cost",
     ],
   },
   {
