@@ -11,7 +11,7 @@ export default function About() {
           {/* Left — bio */}
           <div>
             <p style={{ marginBottom: 16 }}>
-              I&apos;m a 3rd-year B.E. AI & ML student at BNMIT, Bengaluru (GPA 8.29). I build things end-to-end — not just notebooks, but systems that run in production with real users and measurable outcomes.
+              I&apos;m a 4th-year B.E. AI & ML student at BNMIT, Bengaluru (GPA 8.29). I build things end-to-end — not just notebooks, but systems that run in production with real users and measurable outcomes.
             </p>
             <p style={{ marginBottom: 16 }}>
               My work spans computer vision (CNNs, ViT, Grad-CAM), LLM engineering (multi-model pipelines, RAG, GraphRAG), and backend systems (FastAPI, Redis, Supabase). I care about deployment, reliability, and results.

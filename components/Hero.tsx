@@ -37,7 +37,7 @@ export default function Hero() {
             </p>
 
             <p style={{ fontSize: 18, maxWidth: 520, marginBottom: 36, color: "var(--text-2)", lineHeight: 1.75 }}>
-              3rd-year AI & ML student at BNMIT. I build production AI systems end-to-end —
+              4th-year AI & ML student at BNMIT. I build production AI systems end-to-end —
               LLM-powered SaaS, computer vision, and full-stack AI products with real users and measurable outcomes.
             </p>
 
