@@ -14,6 +14,17 @@ const projects = [
     eager: true,
   },
   {
+    title: "Touchline AI",
+    type: "Agents · RAG · Evals",
+    description: "Football analyst over five StatsBomb 2022 World Cup matches. A tool-calling agent with 8 tools (xG, PPDA, heatmaps, minutes played, 360 freeze-frame shot context, RAG search) must cite match event ids; a validator checks every quoted number against the tool results and flags what it cannot verify. 130 API tests, Alembic migrations, Docker, rate limits and a daily spend cap.",
+    metric: "8 tools · 130 API tests · 9/9 on a live golden-question eval",
+    stack: "FastAPI · Postgres/pgvector · OpenAI · Next.js",
+    github: "https://github.com/vishnu-k-dev/Touch-Line",
+    live: "https://touch-line-gray.vercel.app/",
+    preview: "/preview-touchline.png",
+    eager: false,
+  },
+  {
     title: "Brain Tumor Detection",
     type: "Computer Vision · Deep Learning",
     description: "Hybrid CNN + Vision Transformer for MRI-based multi-class tumor classification. Multimodal fusion (T1/T2/FLAIR), radiomics feature extraction, and Grad-CAM explainability. Published on HuggingFace.",

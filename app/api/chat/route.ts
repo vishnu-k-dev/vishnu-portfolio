@@ -33,7 +33,13 @@ PROJECTS
    - Trained on 895 real SciDB infrared images; cosine similarity scoring + Grad-CAM visualisation
    - Research paper submitted to IEEE (currently under review)
 
-5. Project Aarna (live at project-aarna-web.vercel.app)
+5. Touchline AI (live at touch-line-gray.vercel.app, github.com/vishnu-k-dev/Touch-Line)
+   - Football analyst over five StatsBomb 2022 World Cup matches; tool-calling agent with 8 tools (xG, PPDA, heatmaps, minutes played, 360 freeze-frame shot context, RAG search)
+   - Must cite match event ids; a validator checks every quoted number against tool results and flags what it can't verify
+   - 130 API tests, Alembic migrations, Docker, rate limits, daily spend cap; live eval passed 9/9 on golden questions (a small smoke test, not a benchmark)
+   - Stack: FastAPI, Postgres/pgvector, OpenAI, Next.js; API on Render free plan, web on Vercel
+
+6. Project Aarna (live at project-aarna-web.vercel.app)
    - India's first decentralised MRV platform for blue carbon credits on Algorand blockchain
    - Communities submit coastal restoration evidence on IPFS, validators approve on-chain, AARNA tokens minted
    - Stack: Algorand SDK, React, TypeScript, Pera Wallet, IPFS
@@ -43,7 +49,7 @@ RESEARCH
 - CNN-LSTM hybrid with self-attention pooling, trained on 895 SciDB IR images
 
 EXPERIENCE
-- FotoBubbles Tech Pvt. Ltd., AI/ML Intern (May 2026–Present): Built and shipped Veylix, a multi-tenant AI SaaS (Next.js 15, TypeScript, Prisma, PostgreSQL, Python/FastAPI) on my own from architecture to UI — cutting hotel social media creation from hours to under 5 minutes. Wrote 200+ automated tests (Vitest, pytest, Playwright) with 90%+ enforced coverage and mutation testing (Stryker, cosmic-ray); designed Postgres row-level-security tenant isolation and pg-boss outbox jobs with idempotency keys; added OpenTelemetry + Grafana Cloud observability and an AI-spend ledger. Integrated GPT-4o and GPT-4o Vision with structured prompt engineering for multimodal photo intelligence and platform-specific copy across 5 channels. Built a custom deterministic image composition algorithm (Python, Pillow) using 4×4 grid saliency to render 1080×1080, 9:16 Story, and Carousel creatives without generative models.
+- FotoBubbles Tech Pvt. Ltd., AI/ML Intern (May 2026–Present): Built Veylix, a multi-tenant AI SaaS (Next.js 15, TypeScript, Prisma, PostgreSQL, Python/FastAPI) on my own from architecture to UI — cutting hotel social media creation from hours to under 5 minutes. Wrote 200+ automated tests (Vitest, pytest, Playwright) with a 90% coverage threshold enforced in CI and mutation testing (Stryker, cosmic-ray); designed Postgres row-level-security tenant isolation and pg-boss outbox jobs with idempotency keys; added OpenTelemetry + Grafana Cloud observability and an AI-spend ledger. Integrated GPT-4o and GPT-4o Vision with structured prompt engineering for multimodal photo intelligence and platform-specific copy across 5 channels. Built a custom deterministic image composition algorithm (Python, Pillow) using 4×4 grid saliency to render 1080×1080, 9:16 Story, and Carousel creatives without generative models.
 - Equinoxis Pvt. Ltd., AI/ML Intern (June–July 2025): Integrated Gemini API into video generation pipeline, optimised prompt structures, built reproducible ML experiment notebooks
 
 HACKATHONS
@@ -54,7 +60,7 @@ HACKATHONS
 
 SKILLS
 - ML/CV: PyTorch, TensorFlow, OpenCV, YOLOv8, Grad-CAM, Scikit-learn, Albumentations
-- LLMs: GPT-4o, Gemini, Claude API, RAG, GraphRAG, prompt engineering
+- LLMs: GPT-4o, Gemini, Claude API, RAG, GraphRAG, embeddings, tool-calling agents, LLM evals, prompt engineering
 - Backend: FastAPI, Flask, Node.js, Redis, BullMQ
 - Databases: PostgreSQL, Supabase, Firebase
 - DevOps: Docker, Cloudflare R2 & Tunnel, Vercel, Render, Railway, Git

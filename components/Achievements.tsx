@@ -1,6 +1,10 @@
 export default function Achievements() {
   const items = [
     {
+      title: "Evidence-checked football analyst agent (Touchline AI)",
+      detail: "8-tool agent must cite match event ids and a validator checks every quoted number against tool output — 130 API tests, 9/9 on a live golden-question eval (a smoke test, not a benchmark)",
+    },
+    {
       title: "Async multi-model interview pipeline",
       detail: "GPT-4o + Gemini + Claude via BullMQ/Redis workers — 86 AI interviews processed, anti-cheat detection, Supabase RLS",
     },
@@ -21,11 +25,11 @@ export default function Achievements() {
       detail: "Python + Pillow 4×4 grid saliency system with edge density, hero zone protection, and placement interference scoring — renders 1080×1080, 9:16 Story, and Carousel assets",
     },
     {
-      title: "200+ automated tests · 90%+ enforced coverage (Veylix)",
+      title: "200+ automated tests · 90% enforced coverage (Veylix)",
       detail: "Vitest, pytest and Playwright E2E, plus mutation testing with Stryker and cosmic-ray — regression tests are verified to fail without their fix",
     },
     {
-      title: "Full-stack AI SaaS shipped solo (Veylix)",
+      title: "Multi-tenant AI SaaS built end to end (Veylix)",
       detail: "Next.js 15 + TypeScript + Prisma + PostgreSQL + FastAPI + GPT-4o Vision — multi-tenant, hotel social media campaign creation from hours to under 5 minutes",
     },
   ];
