@@ -90,7 +90,7 @@ export default function Hero() {
         {/* Stats — full width below */}
         <div style={{ marginTop: 56, paddingTop: 40, borderTop: "1px solid var(--border)", display: "flex", gap: 48, flexWrap: "wrap" }}>
           {[
-            { value: "8.29", label: "GPA" },
+            { value: "8.35", label: "GPA" },
             { value: "10+", label: "Projects" },
             { value: "480", label: "Chrome installs" },
             { value: "4", label: "Hackathons" },
